@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Adressbuch.UserKontakte"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Adressbuch"
+             mc:Ignorable="d" 
+             Background="White"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ContentControl x:Name="Control">
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Image x:Name="bildkontakt"  Width="200" Height="200"></Image>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock>
+                <Label Content="Vorname: " FontSize="14"></Label>
+            <Label x:Name="vorname"  FontSize="14"></Label>
+                
+            </TextBlock>
+            <TextBlock>
+                <Label Content="Name: " FontSize="14"></Label>
+                
+            <Label x:Name="name"  FontSize="14"></Label>
+            </TextBlock>
+            <TextBlock>
+                <Label Content="Geburtstag: " FontSize="14"></Label>
+            <Label x:Name="geburtstag"  FontSize="14"> </Label>
+               </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1"  >
+            <TextBlock>
+                <Label Content="Strasse: " FontSize="14" ></Label>
+            <Label x:Name="strasse"  FontSize="14"></Label>
+                 </TextBlock>
+            <TextBlock>
+                <Label Content="Hausnummer: " FontSize="14"></Label>
+            <Label x:Name="hausnummer"  FontSize="14"></Label>
+                </TextBlock>
+            <TextBlock>
+                <Label Content="Ort: " FontSize="14"></Label>
+            <Label x:Name="ort"  FontSize="14"></Label>
+            </TextBlock>
+            <TextBlock>
+                <Label Content="Postleitzahl: " FontSize="14"></Label>
+                
+            <Label x:Name="postleizahl"  FontSize="14"></Label>
+                
+            </TextBlock>
+            <TextBlock>
+                <Label Content="Telefon: " FontSize="14"></Label>
+            <Label x:Name="telefon"  FontSize="14"></Label>
+            </TextBlock>
+            <TextBlock>
+                <Label Content="Email: " FontSize="14"></Label>
+            <Label x:Name="email" FontSize="14"></Label>
+                
+            </TextBlock>
+         </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
+                
+          </StackPanel>
+    </Grid>
+    </ContentControl>
+</UserControl>

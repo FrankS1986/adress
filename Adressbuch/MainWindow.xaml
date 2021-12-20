@@ -1,0 +1,104 @@
+﻿<Window x:Class="Adressbuch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adressbuch"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" MaxHeight="600" MaxWidth="1000" d:DesignHeight="487.114" d:DesignWidth="889.553" >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+
+            <ColumnDefinition/>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition/>
+            <RowDefinition Height="70"/>
+
+        </Grid.RowDefinitions>
+        <StackPanel Background="#FF6FA8DC" Grid.Row ="0" Grid.ColumnSpan = "2" VerticalAlignment="Center">
+            <TextBlock>
+            <Label Content="Adressbuch " FontSize="30"  >
+
+            </Label>
+              <Image Source="lupe.png" Height="22" Width="20" Margin="340,0,0,15"></Image>
+            <TextBox  x:Name="suche"  Height="22" Width="300" Margin="3,0,0,15" Text="" TextChanged="suche_TextChanged">
+            
+                
+            </TextBox>
+                 
+                
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Margin="0,0,0,5" >
+            <ContentControl x:Name="Kontakte">
+                
+                    <Calendar x:Name="calendar" Visibility="Visible" RenderTransformOrigin="0.5,0.5" Width="182">
+                    <Calendar.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="2.5" ScaleY="2"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="90" X="-2"/>
+                        </TransformGroup>
+                        
+                    </Calendar.RenderTransform>
+
+                </Calendar>
+
+
+
+
+               
+
+
+            </ContentControl>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="1"  Background="#FFBBB2B2">
+            <TextBlock HorizontalAlignment="Right" >
+               
+                <Image x:Name="gebBild" Source="geb.png" Height="25" Width="25"  MouseDown="gebvBild_MouseDown"  Stretch="Fill" ForceCursor="True" MouseLeave="gebBild_MouseLeave" MouseEnter="gebBild_MouseEnter">
+                   
+                </Image>
+                <Image x:Name="kontakteBild" Source="kontakte.png" Height="25" Width="25" MouseDown="kontakteBild_MouseDown" Stretch="Fill" MouseEnter="kontakteBild_MouseEnter" MouseLeave="kontakteBild_MouseLeave"> </Image>
+                <Image x:Name="deleteBild" Source="delete.png" Height="25" Width="25" MouseDown="deleteBild_MouseDown" Stretch="Fill" MouseEnter="deleteBild_MouseEnter" MouseLeave="deleteBild_MouseLeave"> </Image> 
+                <Image x:Name="addBild" Source="add.png"  Height="25" Width="25"  MouseDown="addBild_MouseDown" Margin="3,0" Stretch="Fill" MouseEnter="addBild_MouseEnter" MouseLeave="addBild_MouseLeave"></Image>
+
+
+
+
+            </TextBlock>
+
+
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <TextBlock Height="63" HorizontalAlignment="Left">
+           
+            <Image x:Name="bebBild" Source="/geb.png" Height="50" Width="50" >
+                
+            </Image>
+                
+                 <Label>Nächster Geburtstag: </Label>
+                <Label x:Name="gebnext"></Label>
+               <Image x:Name="bearbeiten" Source="/bearbeiten.png" Height="0" Width="0" MouseDown="bebBild2_MouseDown" MouseEnter="bebBild2_MouseEnter" MouseLeave="bebBild2_MouseLeave" Margin="200,0,0,0">
+                
+            </Image>
+
+            </TextBlock>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Grid.RowSpan="2">
+
+            <ListBox x:Name="lboxKontakte"  Height="370" SelectionChanged="lboxKontakte_SelectionChanged" />
+
+        </StackPanel>
+    </Grid>
+</Window>

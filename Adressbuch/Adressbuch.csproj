@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bearbeiten.png" />
+    <None Remove="hinzu.png" />
+    <None Remove="kuchen.png" />
+    <None Remove="lupe.png" />
+    <None Remove="lupe2.png" />
+	  <None Remove="delete.png" />
+	  <None Remove="add.png" />
+	  <None Remove="kontakte.png" />
+	  <None Remove="geb.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.XlsIO.Wpf" Version="19.3.0.57" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bearbeiten.png" />
+    <Resource Include="hinzu.png" />
+    <Resource Include="kuchen.png" />
+    <Resource Include="lupe.png" />
+    <Resource Include="lupe2.png" />
+	<Resource Include="delete.png" />
+	<Resource Include="add.png" />
+	<Resource Include="kontakte.png" />
+  <Resource Include="geb.png" />
+  </ItemGroup>
+
+</Project>
