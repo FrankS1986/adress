@@ -34,6 +34,8 @@ namespace Adressbuch
         {
 
             InitializeComponent();
+            
+            
             FotoLoeschen fotoLoeschen = new FotoLoeschen();
             fotoLoeschen.OrdnerClear();
           

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Adressbuch"
         mc:Ignorable="d"
         
-        Title="MainWindow" MaxHeight="600" MaxWidth="1000" d:DesignHeight="487.114" d:DesignWidth="889.553" >
+        Title="Adressbuch" MaxHeight="600" MaxWidth="1000"  d:DesignHeight="487.114" d:DesignWidth="889.553" >
 
     <Grid>
         <Grid.ColumnDefinitions>
