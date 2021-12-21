@@ -210,7 +210,7 @@ namespace Adressbuch
                     string KontaktKlick;
                     KontaktKlick = (string)lboxKontakte.SelectedItem;
 
-
+                
                     if (lboxKontakte.SelectedItem != null)
                     {     //teilt vornamen und nachnamen auf und durchsucht die tabelle
                         string[] teilen = KontaktKlick.Split();
@@ -238,10 +238,6 @@ namespace Adressbuch
 
                                 userKontakte.bildkontakt.Source = kontaktBildImage;
 
-
-                               // userKontakte.bildkontakt.Source = new BitmapImage(new Uri(AppDomain.CurrentDomain.BaseDirectory+@"Bilder\" + VN, UriKind.RelativeOrAbsolute));
-
-                               
 
 
                                 }
@@ -321,6 +317,7 @@ namespace Adressbuch
 
         
         List<string> list = new List<string>();
+        // Textbox suchen
         private void suche_TextChanged(object sender, TextChangedEventArgs e)
         {
            
@@ -493,7 +490,10 @@ namespace Adressbuch
 
         }
 
-       
+        
+        
+
+        
     }
 }
     

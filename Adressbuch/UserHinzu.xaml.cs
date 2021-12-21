@@ -191,14 +191,12 @@ namespace Adressbuch
 
         private void bildkontakt_MouseEnter(object sender, MouseEventArgs e)
         {
-            bildkontakt.Source = new BitmapImage(new Uri(Paths.GetFilePath( @"ressours\hinzu2.png"), UriKind.RelativeOrAbsolute));
-
+            Cursor = Cursors.Hand;
         }
 
         private void bildkontakt_MouseLeave(object sender, MouseEventArgs e)
         {
-            bildkontakt.Source = new BitmapImage(new Uri(Paths.GetFilePath( @"ressours\hinzu.png"), UriKind.RelativeOrAbsolute));
-
+            Cursor = Cursors.Arrow;
         }
 
         private void HinzufuegenPostleizahl_PreviewTextInput(object sender, TextCompositionEventArgs e)

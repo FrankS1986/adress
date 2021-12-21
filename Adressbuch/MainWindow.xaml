@@ -24,17 +24,19 @@
 
         </Grid.RowDefinitions>
         <StackPanel Background="#FF6FA8DC" Grid.Row ="0" Grid.ColumnSpan = "2" VerticalAlignment="Center">
-            <TextBlock>
+            <TextBlock >
             <Label Content="Adressbuch " FontSize="30"  >
 
             </Label>
-              <Image Source="lupe.png" Height="22" Width="20" Margin="340,0,0,15"></Image>
-            <TextBox  x:Name="suche"  Height="22" Width="300" Margin="3,0,0,15" Text="" TextChanged="suche_TextChanged">
+              <Image Source="lupe.png" Height="22" Width="20" Margin="340,0,0,15"  ></Image>
             
+                    <TextBox  x:Name="suche"  Height="22" Width="300" Margin="3,0,0,15" Text=""  TextChanged="suche_TextChanged"  FontStyle="Italic" />
                 
-            </TextBox>
-                 
-                
+
+
+
+
+
             </TextBlock>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Margin="0,0,0,5" >

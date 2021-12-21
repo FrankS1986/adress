@@ -148,7 +148,7 @@ namespace Adressbuch
 
                         
 
-                        MessageBox.Show("Kontakt erfolgreich Hinzugefügt, Bildänderungen werden erst Beim neustart Angezeigt");
+                        MessageBox.Show("Kontakt erfolgreich Hinzugefügt");
 
                        
 
@@ -209,6 +209,16 @@ namespace Adressbuch
         private void HinzufuegenTelefon_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             CheckIsNumeric(e);
+        }
+
+        private void bildkontakt_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void bildkontakt_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Cursor = Cursors.Arrow;
         }
     }
 }

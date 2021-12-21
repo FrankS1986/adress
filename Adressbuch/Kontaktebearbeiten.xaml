@@ -19,7 +19,7 @@
 
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
-            <Image x:Name="bildkontakt"  Width="200" Height="200" Source="/hinzu.png" MouseDown="bildkontakt_MouseDown"   ></Image>
+            <Image x:Name="bildkontakt"  Width="200" Height="200" Source="/hinzu.png" MouseDown="bildkontakt_MouseDown" MouseEnter="bildkontakt_MouseEnter" MouseLeave="bildkontakt_MouseLeave"   ></Image>
         </StackPanel>
         <StackPanel Grid.Column="1" HorizontalAlignment="Left">
                 <TextBlock>

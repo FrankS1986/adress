@@ -10,64 +10,96 @@
     <ContentControl x:Name="Control">
         <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
+            
+            <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="200"/>
             <RowDefinition/>
-
-        </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0">
-            <Image x:Name="bildkontakt"  Width="200" Height="200"></Image>
-        </StackPanel>
-        <StackPanel Grid.Column="1">
+               
+            </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
+            <Image x:Name="bildkontakt"  Width="200" Height="200"  />
+            </StackPanel>
+        <StackPanel Grid.Column="2">
             <TextBlock>
                 <Label Content="Vorname: " FontSize="14"></Label>
-            <Label x:Name="vorname"  FontSize="14"></Label>
+           
                 
             </TextBlock>
             <TextBlock>
                 <Label Content="Name: " FontSize="14"></Label>
                 
-            <Label x:Name="name"  FontSize="14"></Label>
+           
             </TextBlock>
             <TextBlock>
                 <Label Content="Geburtstag: " FontSize="14"></Label>
-            <Label x:Name="geburtstag"  FontSize="14"> </Label>
+            
                </TextBlock>
         </StackPanel>
+            <StackPanel Grid.Column="3">
+                <TextBlock>
+                     <Label x:Name="vorname"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                     <Label x:Name="name"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                    <Label x:Name="geburtstag"  FontSize="14"> </Label>
+                </TextBlock>
+            </StackPanel>
         <StackPanel Grid.Row="1"  >
             <TextBlock>
                 <Label Content="Strasse: " FontSize="14" ></Label>
-            <Label x:Name="strasse"  FontSize="14"></Label>
+           
                  </TextBlock>
             <TextBlock>
                 <Label Content="Hausnummer: " FontSize="14"></Label>
-            <Label x:Name="hausnummer"  FontSize="14"></Label>
+            
                 </TextBlock>
             <TextBlock>
                 <Label Content="Ort: " FontSize="14"></Label>
-            <Label x:Name="ort"  FontSize="14"></Label>
+            
             </TextBlock>
             <TextBlock>
                 <Label Content="Postleitzahl: " FontSize="14"></Label>
                 
-            <Label x:Name="postleizahl"  FontSize="14"></Label>
+           
                 
             </TextBlock>
             <TextBlock>
                 <Label Content="Telefon: " FontSize="14"></Label>
-            <Label x:Name="telefon"  FontSize="14"></Label>
+           
             </TextBlock>
             <TextBlock>
                 <Label Content="Email: " FontSize="14"></Label>
-            <Label x:Name="email" FontSize="14"></Label>
+           
                 
             </TextBlock>
          </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
-                
+        <StackPanel Grid.Row="1" Grid.Column="1" >
+                <TextBlock>
+                    <Label x:Name="strasse"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                    <Label x:Name="hausnummer"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                    <Label x:Name="ort"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                     <Label x:Name="postleizahl"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                    <Label x:Name="telefon"  FontSize="14"></Label>
+                </TextBlock>
+                <TextBlock>
+                     <Label x:Name="email" FontSize="14"></Label>
+                </TextBlock>
           </StackPanel>
     </Grid>
     </ContentControl>
