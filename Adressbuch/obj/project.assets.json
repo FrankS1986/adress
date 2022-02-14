@@ -223,23 +223,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\frschroeder\\.nuget\\packages\\": {},
+    "C:\\Users\\frank\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frschroeder\\source\\repos\\Adressbuch\\Adressbuch\\Adressbuch.csproj",
+      "projectUniqueName": "C:\\Users\\frank\\Desktop\\Neuer Ordner (2)\\adress\\Adressbuch\\Adressbuch.csproj",
       "projectName": "Adressbuch",
-      "projectPath": "C:\\Users\\frschroeder\\source\\repos\\Adressbuch\\Adressbuch\\Adressbuch.csproj",
-      "packagesPath": "C:\\Users\\frschroeder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frschroeder\\source\\repos\\Adressbuch\\Adressbuch\\obj\\",
+      "projectPath": "C:\\Users\\frank\\Desktop\\Neuer Ordner (2)\\adress\\Adressbuch\\Adressbuch.csproj",
+      "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\frank\\Desktop\\Neuer Ordner (2)\\adress\\Adressbuch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\frschroeder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -157,7 +157,7 @@ namespace Adressbuch {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Adressbuch;component/userhinzu.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Adressbuch;V1.0.0.0;component/userhinzu.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserHinzu.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

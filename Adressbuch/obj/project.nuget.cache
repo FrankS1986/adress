@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LwK3NkXCA7FV7bRhgQWP/WfpED0+lgv9gi3RQkH6JCPTpGyobIerdraNlOAarEO7dRlZ00891GLCq74az4yt0g==",
+  "dgSpecHash": "8+AhVRSHTb1RcY/QxkG91TVJ7uTmX3+sNuwtjTTsx0rj+1tgPqpnBgp1wY1KnLuerpWGq9n3YwSH2lORDNwjng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\frschroeder\\source\\repos\\Adressbuch\\Adressbuch\\Adressbuch.csproj",
+  "projectFilePath": "C:\\Users\\frank\\Desktop\\Neuer Ordner (2)\\adress\\Adressbuch\\Adressbuch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\frschroeder\\.nuget\\packages\\syncfusion.compression.base\\19.3.0.57\\syncfusion.compression.base.19.3.0.57.nupkg.sha512",
-    "C:\\Users\\frschroeder\\.nuget\\packages\\syncfusion.licensing\\19.3.0.57\\syncfusion.licensing.19.3.0.57.nupkg.sha512",
-    "C:\\Users\\frschroeder\\.nuget\\packages\\syncfusion.xlsio.wpf\\19.3.0.57\\syncfusion.xlsio.wpf.19.3.0.57.nupkg.sha512",
-    "C:\\Users\\frschroeder\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+    "C:\\Users\\frank\\.nuget\\packages\\syncfusion.compression.base\\19.3.0.57\\syncfusion.compression.base.19.3.0.57.nupkg.sha512",
+    "C:\\Users\\frank\\.nuget\\packages\\syncfusion.licensing\\19.3.0.57\\syncfusion.licensing.19.3.0.57.nupkg.sha512",
+    "C:\\Users\\frank\\.nuget\\packages\\syncfusion.xlsio.wpf\\19.3.0.57\\syncfusion.xlsio.wpf.19.3.0.57.nupkg.sha512",
+    "C:\\Users\\frank\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
